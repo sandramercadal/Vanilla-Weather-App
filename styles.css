@@ -34,7 +34,7 @@ p:first-letter {
   text-transform: capitalize;
 }
 .date {
-  text-align: center;
+  color: aqua;
 }
 .d-flex-temp {
   text-align: center;
@@ -86,4 +86,7 @@ p:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
   text-align: center;
+}
+.temperature {
+  color: rebeccapurple;
 }
