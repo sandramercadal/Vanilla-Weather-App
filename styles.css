@@ -38,6 +38,9 @@ p {
 p:first-letter {
   text-transform: capitalize;
 }
+.date {
+  text-align: center;
+}
 .d-flex-temp {
   text-align: center;
   font-size: 30px;
