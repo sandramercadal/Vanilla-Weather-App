@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  font-size: 38px;
+  font-size: 33px;
   font-family: barlow;
   text-transform: capitalize;
 }
@@ -10,12 +10,11 @@ h2 {
   line-height: 50%;
   font-family: barlow;
 }
-
 h3 {
   text-align: center;
   font-size: 15px;
+  line-height: 50%;
   font-family: barlow;
-  color: blueviolet;
 }
 h4 {
   text-align: center;
@@ -33,9 +32,7 @@ p {
 p:first-letter {
   text-transform: capitalize;
 }
-.date {
-  color: aqua;
-}
+
 .d-flex-temp {
   text-align: center;
   font-size: 30px;
@@ -86,7 +83,4 @@ p:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
   text-align: center;
-}
-.temperature {
-  color: rebeccapurple;
 }
