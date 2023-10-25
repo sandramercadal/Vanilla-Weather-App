@@ -36,12 +36,11 @@
       <br />
       <div class="searchbutton">
         <form id="search-form">
-          <input type="search" placeholder="Enter another city" />
+          <input type="search" placeholder="Enter another city" id="city-input" />
               <input
               type="submit"
               value="Search"
               autocomplete="off"
-              id="city-input"
           />
         </form>
       <br />
@@ -68,7 +67,7 @@
       % ~ Wind: <span id="wind"></span> km/h</h5>
       <hr />
 
-      <div class="weatherforecast">
+      <div class="weatherforecast" id="forecast">
         <div class="col-4">
           <div class="weather-forecast-date">Weds</div>
           <img
@@ -84,6 +83,7 @@
 
           <br />
         </div>
+      </div>
         
     <script src="script.js"></script>
   </body>
