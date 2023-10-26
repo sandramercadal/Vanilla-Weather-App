@@ -41,6 +41,7 @@ h1 {
   font-size: 33px;
   font-family: barlow;
   text-transform: capitalize;
+  color: #666462;
 }
 h2 {
   text-align: center;
@@ -53,6 +54,7 @@ h3 {
   font-size: 13px;
   line-height: 20%;
   font-family: barlow;
+  color: #666462;
 }
 h4 {
   text-align: center;
@@ -63,6 +65,7 @@ h5 {
   font-size: 17px;
   line-height: 50%;
   font-family: barlow;
+  color: #666462;
 }
 small {
   font-size: 30px;
@@ -78,22 +81,27 @@ p:first-letter {
 
 .d-flex-temp {
   text-align: center;
-  font-size: 35px;
+  font-size: 55px;
   line-height: 130%;
   font-family: barlow;
-  color: green;
+  color: #666462;
 }
 .searchbutton {
   text-align: center;
   font-family: barlow;
+  color: #666462;
+}
+.search {
+  font-family: barlow;
+  color: #666462;
 }
 .weathercontainer {
   margin: 50px auto;
   display: block;
   max-width: 500px;
-  background-color: white;
+  background-color: #e8dcd5;
   border-radius: 10px;
-  box-shadow: 15px 10px 15px #666462;
+  box-shadow: 15px 10px 15px #4a4e56;
   padding: 42px;
   font-family: barlow;
 }
@@ -101,7 +109,7 @@ p:first-letter {
 .weatherforecast {
   margin-top: 20px;
   text-align: center;
-  color: red;
+  color: #666462;
 }
 
 .weather-forecast-date {
