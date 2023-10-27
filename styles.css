@@ -119,6 +119,7 @@ p:first-letter {
 .weather-forecast-temperature-min {
   text-align: center;
   color: #352f44;
+  opacity: 0.6;
 }
 .weather-forecast-temperature-max {
   text-align: center;
