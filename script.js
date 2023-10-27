@@ -199,4 +199,4 @@ function search(city) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSearch);
 
-search("Alicante");
+search("Madrid");
