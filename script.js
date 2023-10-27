@@ -156,7 +156,7 @@ function displayTemperature(response) {
   cityElement.innerHTML = response.data.name;
 
   let countryElement = document.querySelector("#country");
-  countryElement.innerHTML = response.data.main.location;
+  countryElement.innerHTML = response.data.sys.country;
 
   let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = response.data.weather[0].description;
