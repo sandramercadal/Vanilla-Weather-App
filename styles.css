@@ -65,6 +65,13 @@ h5 {
   font-family: barlow;
   color: #352f44;
 }
+#icon {
+  #icon {
+    width: 99px;
+    height: 99px;
+  }
+}
+
 small {
   font-size: 30px;
 }
