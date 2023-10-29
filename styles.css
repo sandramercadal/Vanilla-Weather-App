@@ -58,7 +58,7 @@ h4 {
 }
 h5 {
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 50%;
   color: #352f44;
 }
@@ -68,8 +68,12 @@ h5 {
   margin-top: -15px;
 }
 
-small {
-  font-size: 30px;
+.footer {
+  font-size: 14px;
+  text-align: center;
+  font-family: barlow;
+  color: #2c68c4;
+  margin-top: -25px;
 }
 
 p {

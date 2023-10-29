@@ -94,7 +94,7 @@ function formatDate(timestamp) {
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
-//checked
+
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
@@ -102,7 +102,7 @@ function formatDay(timestamp) {
 
   return days[day];
 }
-//checked
+
 function displayForecast(response) {
   let forecast = response.data.daily;
 
@@ -140,14 +140,13 @@ function displayForecast(response) {
   forecastElement.innerHTML = forecastHTML;
 }
 
-//checked
 function getForecast(coordinates) {
   let apiKey = "866a208a73eeff02182218e9441647a1";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayForecast);
 }
 
-//checked Weather Data
+//Weather Data
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
@@ -182,7 +181,7 @@ function displayTemperature(response) {
   getForecast(response.data.coord);
 }
 
-//checked City Search engine handling
+//City Search engine handling
 function handleSearch(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input");
@@ -195,7 +194,7 @@ function search(city) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemperature);
 }
-//checked
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSearch);
 
