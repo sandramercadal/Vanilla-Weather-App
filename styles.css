@@ -74,6 +74,7 @@ h5 {
   font-family: barlow;
   color: #2c68c4;
   margin-top: -25px;
+  cursor: pointer;
 }
 
 p {
